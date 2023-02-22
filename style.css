@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.up {
+    position: absolute;
+    bottom: 20%;
+    right: 40%;
+    min-width: 75rem;
+    min-height: 75rem;
+}
+
+.down {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    min-width: 75rem;
+    min-height: 75rem;
+}
+
+.img1 {
+    max-width: 100%;
+    height: 13.5625rem;
+    border-radius: 20px 20px 0 0;
+}
+
+.up1 {
+    padding: 0;
+}
+
+.big {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    max-width: 45%;
+    margin: auto;
+}
+
+.down1 {
+    min-height: 30vh;
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    border-radius: 50%;
+    min-width: 7.8125rem;
+    min-height: 7.8125rem;
+    border: solid white 5px;
+    position: absolute;
+    bottom: 80%;
+    left: 37%;
+}
+
+.big {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.name {
+    display: inline-block;
+}
+
+.age {
+    display: inline-block;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.3rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 p {
+    color: hsl(227, 10%, 46%);
+    font-weight: 300;
+}
+
+.london {
+    color: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.down2 {
+    width: 10rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+hr {
+    padding-top: 10px;
+    color: hsl(229, 11%, 64%);
+}
+
+.upp {
+    margin: 0;
+    color: hsl(229, 23%, 23%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+col {
+    padding: 0;
+}
+
+.downn {
+    color: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 1065px) {
+    .big {
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        max-width: 65%;
+        margin: auto;
+    }
+    .img1 {
+        width: 100%;
+        height: 13.5625rem;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@media (max-width:768px) {
+    .big {
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        max-width: 80%;
+        margin: auto;
+    }
+    .up {
+        position: absolute;
+        bottom: 20%;
+        right: 20%;
+        min-width: 75rem;
+        min-height: 75rem;
+    }
+}
